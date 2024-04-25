@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
-/*import java.util.Random;*/
+import java.util.Random;
 
 public class SnakeGame extends JPanel implements ActionListener, KeyListener {
     private static final int WIDTH = 800;
@@ -40,7 +40,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         startGame();
     }
 
-    /*private void startGame() {
+    private void startGame() {
         running = true;
         snakeX.clear();
         snakeY.clear();
@@ -48,7 +48,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         snakeY.add(0);
         spawnApple();
         timer.start();
-    }*/
+    }
 
     private void spawnApple() {
         Random random = new Random();
