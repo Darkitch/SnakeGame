@@ -40,7 +40,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         startGame();
     }
 
-    private void startGame() {
+    /*private void startGame() {
         running = true;
         snakeX.clear();
         snakeY.clear();
@@ -48,7 +48,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         snakeY.add(0);
         spawnApple();
         timer.start();
-    }
+    }*/
 
     private void spawnApple() {
         Random random = new Random();
